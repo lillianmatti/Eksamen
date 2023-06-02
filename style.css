@@ -1,0 +1,290 @@
+html { scroll-behavior: smooth; }
+
+body {
+    margin: 0; 
+    background-color: #FFFFFF; 
+}
+
+h1, h2, h3, h5, h6, p { font-weight: 400 }
+
+h2, h3, h5, h6 { color: #1C1C1C; }
+
+h5, h6, p { font-size: 20px; }
+
+h4, h1, h2, h3 { font-family: "didot"; }
+
+h5, h6, p { font-family: "baskerville"; }
+
+p { line-height: 2; }
+
+h1 {
+    font-size: 70px;
+    text-align: left;
+    padding-left: 35px;
+    margin-top: 0px;
+    color: #ffffff;
+}
+
+h2 {
+    font-size: 60px;
+    text-align: left;
+    padding-left: 35px;
+}
+
+h3 {
+    font-size: 60px;
+    padding-right: 35px;
+    text-align: right;
+}
+
+h4 {
+    text-align: center;
+    color: #8A745F;
+    font-size: 50px;
+    font-weight: 600;
+}
+
+.my-work {
+    padding-top: 700px;
+}
+
+.forside {
+    padding-right: 100px; 
+    padding-left: 35px; 
+    color: #ffffff;
+    line-height: 1.5;
+    margin-top: -15px;
+}
+
+
+.right-sektion {
+    text-align: right;
+    text-align-last: right;
+    padding-left: 130px;
+    padding-right: 35px;
+    color: #1C1C1C;
+}
+
+.left-sektion {
+    text-align: left;
+    text-align-last: left; 
+    padding-left: 35px;
+    padding-right: 130px;
+    color: #1C1C1C;
+}
+
+.background { 
+    height: 100vh;
+    background-image: url(mig.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.box {
+    width: 55%;
+    background-color: #989083;
+    height: 40%;
+    position: absolute;
+    padding-top: 100px;
+    margin-top: 180px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+nav {
+    top: 0;
+    position: sticky;
+  }
+  
+  nav ul {
+    background-color: #FFFFFF;
+    list-style-type: none;
+    float: right;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    position: relative;
+    z-index: 3;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  }
+  
+  nav li {
+    display: inline-block;
+    float: right;
+  }
+  
+  nav li a {
+    display: block;
+    padding: 25px 60px;
+    text-decoration: none;
+    color: #1C1C1C;
+    font-family: "baskerville";
+    font-size: 15px;
+  }
+
+  .logo {
+    float:left;
+  }
+
+  nav li b {
+    display: block;
+    padding: 15px 45px;
+    color: #1C1C1C;
+    font-family: "didot";
+    font-size: 25px;
+    font-weight: 400
+  }
+  
+  nav li a:hover {
+    background-color: #E0D2C1;
+    color: #1C1C1C;
+  }
+
+.box2 {
+    width: 100%;
+    height: 300px;
+    background-color: #EBEAE4;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.box3 {
+    width: 100%;
+    height: 300px;
+    background-color: #EBEAE4;
+    margin-top: 300px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+
+.info-box {
+    display: flex;
+    float: right;
+    margin-top: -150px;
+}
+.column1 {
+    width: auto;
+}
+
+.column2 {
+    width: auto;
+}
+
+#mig {
+    width: 300px;
+    height: 300px;
+    padding-left: 100px;
+    padding-top: 30px;
+    }
+
+.info-box1 {
+    display: flex;
+    float: left;
+}
+
+.column3 {
+    width: auto;
+    padding-top: 130px;
+}
+
+.column4 {
+    width: auto;
+    padding-right: 100px;
+}
+
+#mig1 {
+width: 300px;
+height: 300px; 
+padding-top: 180px; 
+}
+
+.container {
+  display: flex;
+  justify-content: center; 
+  height: 90vh; 
+}
+
+.box4 {
+  width: 230px;
+  height: 490px;
+  border: 5px solid #9A9081;
+  margin: 0 30px;
+}
+
+.gyal {
+  width: 400px;
+  height: 500px;
+  background: url(gyal.png) 0 0 no-repeat;
+  animation: play 1s steps(4) infinite;
+  }
+
+  @keyframes play {
+    0%{background-position: 0px;}
+    100%{background-position: -2000px;}
+}
+  
+
+.box5 {
+  width: 500px;
+  height: 500px;
+  border: 5px solid #9A9081;
+}
+
+.kompetancer{
+    display: flex;
+    justify-content: center;
+}  
+.kompetancer img {
+    width: 200px;
+    height: 200px;
+    padding:40px;
+  }
+
+
+
+.kontakt-boks {
+    background-color: #ffffff;
+    border: 1px solid #1C1C1C;
+    padding: 50px;
+    max-width: 700px;
+    margin-left: 40px;
+  }
+  
+  .kontakt-boks .input-container {
+    display: flex;
+    margin-bottom: 10px;
+  }
+  
+  .kontakt-boks .input-container label {
+    flex: 1;
+  }
+  
+  .kontakt-boks .input-container input,
+  .kontakt-boks .input-container textarea {
+    flex: 2;
+    padding: 10px;
+  }
+  
+  .kontakt-boks button {
+    color: #1c1c1c;
+    background-color: #ffffff;
+    padding: 20px 90px;
+    border: 1px solid #1C1C1C;
+  }
+  
+  .kontakt-boks button:hover {
+    background-color: #E0D2C1;
+  }
+
+  .right {
+    align-items: right;
+  }
+
+  
+
+  .footer {
+    width: 100%;
+    height: 200px;
+    background-color: #E0D2C1;
+    margin-top: 100px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
